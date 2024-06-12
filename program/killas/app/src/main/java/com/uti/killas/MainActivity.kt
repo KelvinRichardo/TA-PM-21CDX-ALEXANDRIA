@@ -21,10 +21,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.loginButton.setOnClickListener(View.OnClickListener {
+
             if (binding.username.text.toString() == "user" && binding.password.text.toString() == "1234"){
                 Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Login Failed!", Toast.LENGTH_SHORT).show()
+
+            val loginButton = findViewById<Button>(R.id.loginButton)
+                loginButton.setOnClickListener {
+                    val intent = setIntent(this,BioActivity::class.java)
+                    startActivity(intent)
+                }
+
             }
         })
 
