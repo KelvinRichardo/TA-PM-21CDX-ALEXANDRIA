@@ -75,6 +75,72 @@
             android:id="@+id/cv2"
             android:layout_below="@+id/cv1">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ono"
+            app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ono Villa"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textSize="40dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#7ABA78"
+            android:id="@+id/cv3"
+            android:layout_below="@+id/cv2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/segara"
+            app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Segara Beach House"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:textSize="40dp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
 
 
     </RelativeLayout>
