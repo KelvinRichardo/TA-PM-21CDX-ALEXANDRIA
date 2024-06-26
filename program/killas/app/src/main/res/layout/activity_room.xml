@@ -7,7 +7,8 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:background="@color/white"
+        tools:context=".RoomActivity">
 
         <TextView
             android:id="@+id/title"
@@ -17,7 +18,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginStart="131dp"
             android:layout_marginEnd="138dp"
-            android:Layout_centerhorizontal="true"
+            android:layout_marginTop="10dp"
             android:fontFamily="cursive"
             android:text="Killas Villa's"
             android:textColor="@color/lavender"
@@ -33,6 +34,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             app:cardBackgroundColor="#57A6A1"
+            android:onClick="TampilkanVilla1"
             android:id="@+id/cv1"
             android:layout_below="@+id/title">
 
@@ -46,7 +48,7 @@
                 android:layout_width="300dp"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
-                android:src="@drawable/Mandiri"
+                android:src="@drawable/mandiri"
                 app:shapeAppearanceOverlay="@style/RoundedImage" />
 
                 <TextView
@@ -72,6 +74,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             app:cardBackgroundColor="#FF5580"
+            android:onClick="TampilkanVilla2"
             android:id="@+id/cv2"
             android:layout_below="@+id/cv1">
 
@@ -111,6 +114,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             app:cardBackgroundColor="#7ABA78"
+            android:onClick="TampilkanVilla3"
             android:id="@+id/cv3"
             android:layout_below="@+id/cv2">
 
