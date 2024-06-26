@@ -98,9 +98,21 @@
                 android:fontFamily="cursive"
                 android:textSize="40dp"
                 android:layout_marginTop="10dp"/>
-        </LinearLayout>
 
+        </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#7ABA78"
+            android:id="@+id/cv3"
+            android:layout_below="@+id/cv2">
 
 
 
