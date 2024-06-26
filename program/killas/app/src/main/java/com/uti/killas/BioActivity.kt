@@ -17,10 +17,12 @@ class BioActivity : AppCompatActivity() {
         MasukButton.setOnClickListener {
             val intent = Intent(this, RoomActivity::class.java)
             startActivity(intent)
+        }
+
+        fun tampilkanRoom(view: View) {
+            val intent = Intent(this, RoomActivity::class.java)
+            startActivity(intent)
+
+        }
     }
-
-    fun tampilkanRoom(view: View) {
-        val intent = Intent(this, RoomActivity::class.java)
-        startActivity(intent)
-
 }
