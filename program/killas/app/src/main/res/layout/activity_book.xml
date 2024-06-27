@@ -4,7 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".RoomActivity">
+    android:background="@drawable/loginbkg"
+    tools:context=".BookActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#57A6A1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Mandiri Beach Villa"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:src="@drawable/Mandiri"
+        app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Villa ini memiliki panorama yang indah dan juga beach side yang cocok untuk kamu, dan juga di lengkapi dengan fasilitas private pool"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

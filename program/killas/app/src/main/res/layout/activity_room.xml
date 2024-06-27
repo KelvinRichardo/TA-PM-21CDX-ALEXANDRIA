@@ -22,7 +22,7 @@
             android:fontFamily="cursive"
             android:text="Killas Villa's"
             android:textColor="@color/lavender"
-            android:textSize="30dp"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
         <androidx.cardview.widget.CardView
