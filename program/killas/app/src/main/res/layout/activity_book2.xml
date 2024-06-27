@@ -34,6 +34,26 @@
         android:textSize="30dp"
         android:textStyle="bold" />
 
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/Mandiri"
+            app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="tentukan Tanggal"
+            android:id="@+id/jwl_1"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="monospace"
+            android:textColor="#57A6A1"
+            android:onClick="reservasi"
+            app:cornerRadius = "20dp"/>
+
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
