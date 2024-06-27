@@ -41,6 +41,50 @@
             android:src="@drawable/segara"
             app:shapeAppearanceOverlay="@style/RoundedImage" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="tentukan Tanggal"
+            android:id="@+id/jwl_2"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="monospace"
+            android:textColor="#57A6A1"
+            android:onClick="reservasi"
+            app:cornerRadius = "20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="-Villa ini memiliki panorama yang indah dan juga beach side yang cocok untuk kamu, dan juga di lengkapi dengan fasilitas private pool-"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Hubungi contact di bawah untuk harga-"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="082278920823"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:layout_marginTop="10dp" />
+
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 
