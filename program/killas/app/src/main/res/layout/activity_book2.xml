@@ -38,14 +38,14 @@
             android:layout_width="300dp"
             android:layout_height="250dp"
             android:layout_gravity="center"
-            android:src="@drawable/Mandiri"
+            android:src="@drawable/ono"
             app:shapeAppearanceOverlay="@style/RoundedImage" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="tentukan Tanggal"
-            android:id="@+id/jwl_1"
+            android:id="@+id/jwl_2"
             android:textSize="18sp"
             android:layout_marginTop="30dp"
             android:backgroundTint="@color/white"
