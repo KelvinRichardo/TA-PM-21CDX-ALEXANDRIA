@@ -34,7 +34,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             app:cardBackgroundColor="#57A6A1"
-            android:onClick="TampilkanVilla1"
+            android:onClick="tampilkanvilla1"
             android:id="@+id/cv1"
             android:layout_below="@+id/title">
 
@@ -74,7 +74,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             app:cardBackgroundColor="#FF5580"
-            android:onClick="TampilkanVilla2"
+            android:onClick="tampilkanvilla2"
             android:id="@+id/cv2"
             android:layout_below="@+id/cv1">
 
@@ -114,7 +114,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             app:cardBackgroundColor="#7ABA78"
-            android:onClick="TampilkanVilla3"
+            android:onClick="tampilkanvilla3"
             android:id="@+id/cv3"
             android:layout_below="@+id/cv2">
 

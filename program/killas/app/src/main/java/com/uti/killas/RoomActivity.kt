@@ -3,8 +3,10 @@ package com.uti.killas
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
+import androidx.cardview.widget.CardView
+import com.uti.killas.BookActivity
+import com.uti.killas.Book2Activity
+import com.uti.killas.Book3Activity
 
 class RoomActivity : AppCompatActivity() {
 
@@ -12,9 +14,7 @@ class RoomActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_room)
 
-        fun TampilkanVilla1(view: View) {
-            val intent = Intent(this, BookActivity::class.java)
-            startActivity(intent)
-        }
+       
     }
 }
+
