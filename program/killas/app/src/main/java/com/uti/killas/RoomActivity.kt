@@ -14,7 +14,13 @@ class RoomActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_room)
 
-       
+        val cv1: CardView = findViewById(R.id.cv1)
+        cv1.setOnClickListener {
+            val intent = Intent(this, BookActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
 
