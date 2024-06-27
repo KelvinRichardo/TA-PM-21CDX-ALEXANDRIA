@@ -23,6 +23,12 @@ class RoomActivity : AppCompatActivity() {
             cv2.setOnClickListener {
                 val intent = Intent(this, Book2Activity::class.java)
                 startActivity(intent)
+
+                val cv3: CardView = findViewById(R.id.cv3)
+                cv3.setOnClickListener {
+                    val intent = Intent(this, Book3Activity::class.java)
+                    startActivity(intent)
+                }
             }
         }
 
