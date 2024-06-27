@@ -46,9 +46,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@color/white"
-        android:text=""
-        android:textSize="18sp"
-        android:fontFamily="monospace"
+        android:text="Villa ini memiliki panorama yang indah dan juga beach side yang cocok untuk kamu, dan juga di lengkapi dengan fasilitas private pool"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
         android:layout_marginTop="10dp"/>
 </LinearLayout>
 
