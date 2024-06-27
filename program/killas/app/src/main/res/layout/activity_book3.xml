@@ -34,6 +34,13 @@
             android:textSize="30dp"
             android:textStyle="bold" />
 
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/segara"
+            app:shapeAppearanceOverlay="@style/RoundedImage" />
+
     </LinearLayout>
     </androidx.cardview.widget.CardView>
 

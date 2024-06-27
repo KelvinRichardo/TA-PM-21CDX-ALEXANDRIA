@@ -38,7 +38,7 @@
             android:layout_width="300dp"
             android:layout_height="250dp"
             android:layout_gravity="center"
-            android:src="@drawable/Mandiri"
+            android:src="@drawable/ono"
             app:shapeAppearanceOverlay="@style/RoundedImage" />
 
         <Button
